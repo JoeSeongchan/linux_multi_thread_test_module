@@ -26,7 +26,6 @@ void create_thread(void) {
     kthread_run(&thread_run_code, (void *) arg, "thread_run_code");
     kthread_run(&thread_run_code, (void *) arg, "thread_run_code");
     kthread_run(&thread_run_code, (void *) arg, "thread_run_code");
-    kthread_run(&thread_run_code, (void *) arg, "thread_run_code");
 }
 
 // function to run assignment 9.
