@@ -1,0 +1,1 @@
+make && insmod test_test_and_set.ko && rmmod test_test_and_set && dmesg && make clean && dmesg -C

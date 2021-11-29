@@ -1,0 +1,1 @@
+make && insmod test_fetch_and_add.ko && rmmod test_fetch_and_add && dmesg && make clean && dmesg -C

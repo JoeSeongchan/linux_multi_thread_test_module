@@ -1,0 +1,1 @@
+make && insmod test_rwsemaphore.ko && rmmod test_rwsemaphore && dmesg && make clean && dmesg -C
